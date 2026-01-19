@@ -15,6 +15,12 @@
 #   - RHEL 10
 #
 # -----------------------------------------------------------------------------------------------------
+# 重置 MySQL 初始的 root 密码，否则 mysql会拒绝你的任何操作。
+# 重置步骤(reset mysql root password steps)：
+#     1、mysql -u root -p ，使用前面的命令，根据初始 root 密码登录 root 账号(enter initial password login)
+#     2、ALTER USER 'root'@'localhost' IDENTIFIED BY 'Zfh468123!'; 修改密码，密码必须有字母大小写数字和特殊符号(change password)
+#     3、FLUSH PRIVILEGES;  刷新权限，随后退出重新登录
+#     4、Log in using the changed password.
 
 # ------------------------------------------------------------------------------ env
 
