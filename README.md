@@ -1,2 +1,2 @@
-# ops-scripts
+# tool-scripts
 Linux software deployment
