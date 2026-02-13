@@ -34,10 +34,10 @@ printf "${GREEN}>>>>>>>> install mongodb begin.${RESET}\n"
 ###################################################################################
 # 脚本参数
 ###################################################################################
-if [[ $# -lt 1 ]] || [[ $# -lt 2 ]]; then
+if [[ $# -gt 2 ]]; then
   printf "${PURPLE}[Hint]\n"
-  printf "\t sh mongodb-install.sh [version] [path]\n"
-  printf "\t Example: sh mongodb-install.sh rhel93-8.2.3 /usr/local/mongodb\n"
+  printf "\t sh mongodb_install.sh [version] [path]\n"
+  printf "\t Example: sh mongodb_install.sh rhel93-8.2.3 /usr/local/mongodb\n"
   printf "${RESET}\n"
 fi
 

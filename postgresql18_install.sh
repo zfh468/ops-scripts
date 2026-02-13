@@ -4,7 +4,7 @@
 # system: AlmaLinux 10.1 
 # @author: zfh468
 # description: 安装 PostgreSQL 并初始化数据库
-# usage: sh posrgresql18_install.sh
+# usage: sh postgresql18_install.sh
 # ========================================
 
 # 设置 PostgreSQL 版本

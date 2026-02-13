@@ -2,7 +2,7 @@
 # ============================================================
 #  Ansible Full Auto Installer (Universal Linux)
 #  Author: zfh468
-#  Usage : bash install_ansible.sh
+#  Usage : bash ansible_install.sh
 # ============================================================
 
 set -e
