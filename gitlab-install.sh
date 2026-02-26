@@ -108,7 +108,8 @@ open_firewall_port
 # ===========================
 # 完成提示
 # ===========================
-info "GitLab 安装完成 🎉"
+info "GitLab 安装完成 "
 info "访问地址：${EXTERNAL_URL}"
 info "查看日志：gitlab-ctl tail puma"
+
 info "查看初始密码命令：sudo cat /etc/gitlab/initial_root_password"
